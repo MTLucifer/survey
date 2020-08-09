@@ -17,10 +17,13 @@ head {
 body {
     font-family: Arial;
 }
-.tb2 {
+.tb2,.tr23,.tr21,.th21,.td22,.td24 {
     border-collapse: collapse;
     border-style: solid;
     border-width: thin;
+}
+.tr21,.tr23 {
+    background-color: aliceblue;
 }
     </style>
 <h1>
@@ -109,32 +112,32 @@ Please take a few moments to compete this satisfaction survey.  <br>
         Please rate your level of agreement with the following statements.
         <br>
         <table class="tb2">
-            <tr>
+            <tr class="tr21">
                 <td></td>
-                <td>Strongly Disagree</td>
+                <td class="td21">Strongly Disagree</td>
                 <td>Disagree</td>
-                <td>Agree</td>
+                <td class="td23">Agree</td>
                 <td>Strongly Agree</td>
             </tr>
             <tr style="text-align: center">
-                <th style="text-align: left">Our products are priced fairly.</th>
-                <td><label><input name="rate" value="sdisagree" type="radio" /><br>1</label></td>
+                <th style="text-align: left" class="th21">Our products are priced fairly.</th>
+                <td class="td22"><label><input name="rate" value="sdisagree" type="radio" /><br>1</label></td>
                 <td><label><input name="rate" value="disagree" type="radio" /><br>2</label></td>
-                <td><label><input name="rate" value="agree" type="radio" /><br>3</label></td>
+                <td class="td24"><label><input name="rate" value="agree" type="radio" /><br>3</label></td>
                 <td><label><input name="rate" value="sagree" type="radio" /><br>4</label></td>
             </tr>
-            <tr style="text-align: center">
+            <tr style="text-align: center" class="tr23">
                 <th style="text-align: left">Our products are high quality.</th>
-                <td><label><input name="rate" value="sdisagree" type="radio" /><br>1</label></td>
+                <td class="td22"><label><input name="rate" value="sdisagree" type="radio" /><br>1</label></td>
                 <td><label><input name="rate" value="disagree" type="radio" /><br>2</label></td>
-                <td><label><input name="rate" value="agree" type="radio" /><br>3</label></td>
+                <td class="td22"><label><input name="rate" value="agree" type="radio" /><br>3</label></td>
                 <td><label><input name="rate" value="sagree" type="radio" /><br>4</label></td>
             </tr>
             <tr style="text-align: center">
                 <th style="text-align: left">You would recommend our product to a friend or coworker.</th>
-                <td><label><input name="rate" value="sdisagree" type="radio" /><br>1</label></td>
+                <td class="td22"><label><input name="rate" value="sdisagree" type="radio" /><br>1</label></td>
                 <td><label><input name="rate" value="disagree" type="radio" /><br>2</label></td>
-                <td><label><input name="rate" value="agree" type="radio" /><br>3</label></td>
+                <td class="td22"><label><input name="rate" value="agree" type="radio" /><br>3</label></td>
                 <td><label><input name="rate" value="sagree" type="radio" /><br>4</label></td>
             </tr>
         </table>
